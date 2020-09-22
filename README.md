@@ -34,6 +34,32 @@ const encodedBase64 = 'R0lGODlhAQABAIAAAAAA...7';
 //     let code = await response.status;
 //     console.log(code);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Multidex Error
+
+
+
+defaultConfig {
+        ...
+        multiDexEnabled true
+}
+...
+dependencies {
+        ...
+        implementation 'com.android.support:multidex:1.0.3'
+}
 //     if (code == 200) {
 //       let responseJson = await response.json();
 //       console.log(responseJson);
